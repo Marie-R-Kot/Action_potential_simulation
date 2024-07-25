@@ -2,8 +2,8 @@
 Mathematical model of action potential propagation with a study of the possibility of changing the potential amplitude under the influence of calcium influx
 
 ### Physics 
-Information in our nerve system is transmitted by electric impulses - action potential - from one axon to another. Experiments show that calcium influx may cause changes in membrane potential. We use mathemtical model on base of cabel equation to explore the influence of shunting part with calcium on action potential propogation
-The cabel equation 
+Information in our nerve system is transmitted by electric impulses - action potential - from one axon to another. Experiments show that calcium influx may cause changes in membrane potential. We use mathematical model on base of cable equation to explore the influence of shunting part with calcium on action potential propagation
+The cable equation 
 ```math
  \frac{\partial V }{\partial t} = \frac{1}{2r_i}\frac{\partial^2 V}{\partial t^2} - I_a - s(x, t)(V - V_s)
 ```
@@ -18,7 +18,7 @@ If you interested in neuronal effects, biophysical results and more details of t
 - numpy
 - time
 - tkinter
-- 
+
 ### Functionality
 * Simulation 
     * Initialization of all parameters and fields of variable
@@ -31,7 +31,7 @@ If you interested in neuronal effects, biophysical results and more details of t
     * graphics that represents results by plotting resulting potential from axon length
 and from time in observation point
 * Fields
-  * Operations with membrane potential and coeffisients fields. Thomas algorithm use those fields from previous time step to calculate its on new step
+  * Operations with membrane potential and coefficients fields. Thomas algorithm use those fields from previous time step to calculate it’s on new step
 * EquationCoeffs
   * Equations to calculate special variable for define sodium and potassium current
 * gauss_elimination
@@ -39,9 +39,9 @@ and from time in observation point
 
 ### Interface instructions
 When you run program, you will see the interface like in picture below. 
-* Firstfull, you need to enter the main parameter, that is the case of all this simulation, - the synaptic conductance on shunt
+* First, you need to enter the main parameter, that is the goal of this research, - the synaptic conductance on shunt
     * You may rest it equal zero or change to value between 0 and 10, that's enough for notable change in graphs
 * Next, you need to press the button 'Start simulation'
-Lines will be change every time step, showing distrubution of membrane potential in mV along the axon and change of membrane potential in time in observation point on shunt(near the right enc of the axon)
+Lines will be changing every time step, showing distribution of membrane potential in mV along the axon and change of membrane potential in time in observation point on shunt (near the right enc of the axon)
 
-![](/assets/images/interface.jpg)
+![](/assets/images/interface.png)
