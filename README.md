@@ -45,4 +45,4 @@ When you run program, you will see the interface like in picture below.
 * Next, you need to press the button 'Start simulation'
 Lines will be changing every time step, showing distribution of membrane potential in mV along the axon and change of membrane potential in time in observation point on shunt (near the right enc of the axon)
 
-![](/assets/images/interface.jpg)
+![](/assets/images/interface.png)
