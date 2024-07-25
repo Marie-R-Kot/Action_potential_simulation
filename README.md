@@ -1,4 +1,4 @@
-# action_potential_simulation
+# Action potential simulation
 Mathematical model of action potential propagation with a study of the possibility of changing the potential amplitude under the influence of calcium influx
 
 ### Physics 
@@ -12,13 +12,12 @@ Thomas algorithm-based implicit scheme has been applied
 
 If you interested in neuronal effects, biophysical results and more details of this experiment you may check the published paper: https://link.springer.com/chapter/10.1007/978-3-031-19032-2_23
 
-### Required packages
+### Used packages
 - math
 - matplotlib
 - numpy
 - time
 - tkinter
-
 
 ### Functionality
 * Simulation 
